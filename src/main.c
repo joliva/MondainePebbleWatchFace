@@ -157,7 +157,8 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
     graphics_context_set_stroke_width(ctx, 3);
     #endif
       
-    int16_t second_hand_length = (bounds.size.w / 2) - 22;
+    //int16_t second_hand_length = (bounds.size.w / 2) - 22;
+    int16_t second_hand_length = (bounds.size.w / 2) - 15;
     int16_t second_hand_opp_length = 16;
      
     double second_angle = 0;
@@ -188,7 +189,7 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
     graphics_draw_line(ctx, second_hand_opp, center);
     
      // Second hand circle
-    graphics_fill_circle(ctx, second_hand, 5);
+    graphics_fill_circle(ctx, second_hand, 3);
     
     
     // Dot in the middle

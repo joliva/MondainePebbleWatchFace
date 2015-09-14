@@ -20,18 +20,8 @@
                 "type": "png"
             },
             {
-                "file": "images/bluetooth-connect.png",
-                "name": "IMAGE_BLUETOOTHCONNECTED",
-                "type": "png"
-            },
-            {
                 "file": "images/resize_icon-mondaine-sbb-black.png",
                 "name": "IMAGE_MONDAINE_BLACKBG",
-                "type": "png"
-            },
-            {
-                "file": "images/resize_icon-mondaine-sbb-white.png",
-                "name": "IMAGE_MONDAINE_WHITEBG",
                 "type": "png"
             },
             {
@@ -45,9 +35,19 @@
                 "type": "png"
             },
             {
+                "file": "images/resize_icon-mondaine-sbb-white.png",
+                "name": "IMAGE_MONDAINE_WHITEBG",
+                "type": "png"
+            },
+            {
                 "file": "images/mondaine_index.png",
                 "menuIcon": true,
                 "name": "IMAGE_MONDAINE_INDEX",
+                "type": "png"
+            },
+            {
+                "file": "images/bluetooth-connect.png",
+                "name": "IMAGE_BLUETOOTHCONNECTED",
                 "type": "png"
             }
         ]
